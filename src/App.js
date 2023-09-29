@@ -8,9 +8,9 @@ const App = () => {
     <Fragment>
       <Cart />
       <Header />
-      <main>
+
       <Meal/>
-      </main>
+ 
     </Fragment>
   );
 };
