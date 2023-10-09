@@ -1,7 +1,7 @@
-import { Fragment } from "react";
+import react, { Fragment } from "react";
 import classes from "./MealsSummary.module.css"
 
-const MealsSummary = () => {
+const MealSummary = () => {
   return (
     <Fragment>
       <div className={classes.Summery}>
@@ -18,4 +18,4 @@ const MealsSummary = () => {
     </Fragment>
   );
 };
-export default MealsSummary;
+export default MealSummary;
