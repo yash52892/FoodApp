@@ -26,6 +26,6 @@ const Model=(props)=>{
                 {props.children}
             </ModelOverlay>, Port)}
         </Fragment>
-    )
-}
+    );
+};
 export default Model;

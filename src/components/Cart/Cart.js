@@ -10,9 +10,9 @@ const Cart = (props) => {
       ))}
     </ul>
   );
-
+        
   return (
-    <Model onClick={props.onClose}>
+    <Model onClose={props.onClose}>
       {cartItems}
       <div className={classes.total}>
         <span>Total Amount</span>

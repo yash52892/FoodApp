@@ -25,6 +25,6 @@ const App = () => {
       </main>
     </CartProvider>
   );
-};
+}
 
 export default App;
