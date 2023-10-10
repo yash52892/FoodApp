@@ -17,13 +17,13 @@ const App = () => {
   }
 
   return (
-    <CartProvider>
+    <CartProvider.Consumer>
       {cartHandler && <Cart Onshowcart={HideCartHandler}/>}
       <Header onShowcart={ShowCartHandler}/>
       <main>
       <Meal/>
       </main>
-    </CartProvider>
+    </CartProvider.Consumer>
   );
 }
 
