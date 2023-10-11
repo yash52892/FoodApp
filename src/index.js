@@ -4,5 +4,4 @@ import './index.css';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-<CartProvider.Consumer><App/></CartProvider.Consumer>);
+root.render(<App/>);
