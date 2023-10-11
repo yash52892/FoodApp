@@ -1,11 +1,15 @@
-import MealsSummary from "./MealsSummary";
-import AvailableMeals from "./AvailableMeals";
-const Meal = (props) => {
+import { Fragment } from 'react';
+
+import MealsSummary from './MealsSummary';
+import AvailableMeals from './AvailableMeals';
+
+const Meals = () => {
   return (
-    <section>
-    <MealsSummary/>
-    <AvailableMeals/>
-    </section>
+    <Fragment>
+      <MealsSummary />
+      <AvailableMeals />
+    </Fragment>
   );
 };
-export default Meal;
+
+export default Meals;
