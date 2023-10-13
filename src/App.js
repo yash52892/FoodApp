@@ -17,13 +17,13 @@ function App() {
   };
 
   return (
-    <CartProvider>
+    <CartProvider.Consumer>
       {cartIsShown && <Cart onClose={hideCartHandler} />}
       <Header onShowCart={showCartHandler} />
       <main>
         <Meals />
       </main>
-    </CartProvider>
+    </CartProvider.Consumer>
   );
 }
 
